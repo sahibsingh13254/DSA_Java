@@ -10,5 +10,5 @@ Logic Building and Data Structures & Algorithms (DSA) using Java.
 - Phase 4: Arrays
 
 ## Goal
-Build strong fundamentals before moving to LeetCode and interviews.
+Build strong fundamentals in DSA
 
