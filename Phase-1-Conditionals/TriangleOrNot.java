@@ -14,7 +14,13 @@ public class TriangleOrNot {
         int c = sc.nextInt();
 
         if ( a+b > c && a+c >b && b+c >a){
-            System.out.println("Valid triangle");
+            if (a == b && b == c) {
+                System.out.println("Equilateral Triangle");
+            } else if (a == b || b == c || a == c) {
+                System.out.println("Isosceles Triangle");
+            } else {
+                System.out.println("Scalene Triangle");
+            }
         }
         else
         {
