@@ -1,4 +1,5 @@
-import java.awt.*;
+package Basic_java_code;
+
 import java.util.Scanner;
 
 public class EvenOdd {

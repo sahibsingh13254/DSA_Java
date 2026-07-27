@@ -1,7 +1,9 @@
+package Basic_java_code;
+
 import java.util.Scanner;
 
-public class largerNumberBetween2 {
-    public static void main(String[] args){
+public class LargerNumberBetween3 {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number1");
         int a = sc.nextInt();
@@ -9,14 +11,18 @@ public class largerNumberBetween2 {
         System.out.println("Enter the number2");
         int b = sc.nextInt();
 
-        if (a>b)
-        {
+        System.out.println("Enter the number2");
+        int c = sc.nextInt();
+
+        if (a > b && a > c) {
             System.out.println("A is bigger");
         }
-        else {
+        else if (b >a && b > c){
             System.out.println("B is bigger");
         }
-
+        else {
+            System.out.println("C is bigger");
+        }
 
 
     }
